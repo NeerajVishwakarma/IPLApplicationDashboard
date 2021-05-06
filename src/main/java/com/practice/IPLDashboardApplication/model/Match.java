@@ -18,7 +18,7 @@ import javax.persistence.Table;
  *
  */
 @Entity
-@Table(name = "matchs")
+/* @Table(name = "matchs") */
 public class Match {
 
 	
@@ -27,7 +27,6 @@ public class Match {
 	private long id;
 	
 	@Lob
-	@Column(name="city")
 	private String city;
 	private Date date;
 	private String playerOfMatch;
